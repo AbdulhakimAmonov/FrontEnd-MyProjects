@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #343434;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+/* navbar */
+.navbar{
+    background-color: #343434;
+    color: white;
+    width: 100%;
+    height: 153px;
+}
+.navbar-name{
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 55px;
+    left: 59px;
+    width: 180px;
+    height: 48px;
+}
+.navbar-home{
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 69px;
+    left: 455px;
+    width: 57px;
+    height: 24px;
+}
+.navbar-about{
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 69px;
+    left: 722px;
+    width: 59px;
+    height: 24px;
+}
+.navbar-portfolio{
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 69px;
+    left: 988px;
+    width: 83px;
+    height: 24px;
+}
+.button-talk{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 1266px;
+    top: 59px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color:#343434;
+    color: white;
+    font-size: 22px;
+    transition: .3s all;
+}
+.frontend{
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 277px;
+    left: 133px;
+    width: 392px;
+    height: 128px;
+    color: white;
+}
+.frontend-text{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 416px;
+    left: 133px;
+    width: 427px;
+    height: 48px;
+    color: white;
+}
+.img-my-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 249px;
+    left: 888px;
+    background-image: url("../img/my-photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.brands{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    width: 300px;
+    height: 102px;  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.About-Me{
+    position: absolute;
+    top: 920px;
+    left: 170px;
+    width: 265px;
+    height: 64px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.siri-img{
+    position: absolute;
+    top: 1000px;
+    left: 175px;
+    width: 241px;
+    height: 211px;
+}
+.text-section2{
+    position: absolute;
+    top: 920px;
+    left: 750px;
+    width: 511px;
+    height: 78px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white; 
+}
+.lorem-section2{
+    position: absolute;
+    top: 1000px;
+    left: 750px;
+    width: 505px;
+    height: 290px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+.button-section2{
+    position: absolute;
+    width: 245px;
+    height: 65px;
+    left: 600px;
+    top: 1300px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color:#343434;
+    color: white;
+    font-size: 22px;
+    transition: 1s all;
+}
+html{
+    scroll-behavior: smooth;
+}
+.a-talk{
+    transition: .3s all;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color:#343434;
+    color: white;
+    padding: 10px 52px;
+    transform: rotateX(360deg);
+}
+.a-talk:hover{
+    background-color: #fff;
+    color: #343434;
+    transform: rotateX(360deg);
+}
+.button-section2:hover{
+    background-color: #fff;
+    color: #343434;
+    transform: rotateX(360deg);
+}
+.button-talk:hover{
+    background-color: #fff;
+    color: #343434;
+}
+.my-knowledge{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    top: 1444px;
+    position: absolute;
+    left: 550px;
+}
+.row-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    top: 1600px;
+    left: 240px;
+}
+.col{
+    width: 288px;
+    height: 493.6px;
+}
+.java-img{
+    width: 284.4px;
+    height: 286.4px;
+}
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    top: 2200px;
+    left: 240px;
+}
+.google-maps{
+    position: absolute;
+    top: 2800px;
+    
+}
+.google-maps-text2{
+    font-weight: bold;
+    font-size: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.iframe-map{
+    position: absolute;
+    left: 222px;
+}
